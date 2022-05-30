@@ -1,5 +1,2 @@
 # Clean the npm .bin for CI
 rm -rf node_modules
-
-# Install packages
-npm i

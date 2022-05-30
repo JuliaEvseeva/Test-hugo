@@ -1,0 +1,4 @@
+# Install packages
+npm install postcss-cli
+npm install autoprefixer
+npm i -D @fullhuman/postcss-purgecss postcss
