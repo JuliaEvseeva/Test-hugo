@@ -1,0 +1,5 @@
+baseURL = 'https://test.com'
+languageCode = 'ru-ru'
+title = 'Test'
+
+defaultContentLanguage = 'ru'
