@@ -1,20 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Somes on Test</title>
-    <link>/some/</link>
-    <description>Recent content in Somes on Test</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ru-ru</language><atom:link href="/some/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Test File</title>
-      <link>/some/some/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/some/some/</guid>
-      <description>Test title gp-pages branch Текст, который был изменен на стороннем сервисе.&amp;lt;br&amp;gt;И была добавлена картинка сюда.
-И шрифт выделен</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Somes on Test</title><link>https://test-hugo-website.github.io/some/</link><description>Recent content in Somes on Test</description><generator>Hugo -- gohugo.io</generator><language>ru-ru</language><atom:link href="https://test-hugo-website.github.io/some/index.xml" rel="self" type="application/rss+xml"/><item><title>Test File</title><link>https://test-hugo-website.github.io/some/some/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://test-hugo-website.github.io/some/some/</guid><description>Test title gp-pages branch Текст, который был изменен на стороннем сервисе.&amp;lt;br&amp;gt;И была добавлена картинка сюда.
+И шрифт выделен</description></item></channel></rss>
