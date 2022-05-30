@@ -1,4 +1,4 @@
-baseURL = 'https://test.com'
+baseURL = 'https://test-hugo-website.github.io'
 languageCode = 'ru-ru'
 title = 'Test'
 
