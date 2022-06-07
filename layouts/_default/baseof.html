@@ -19,36 +19,51 @@
     </div>
 </div>
 <script>
-if (!window.CloudCannon) {
-  document.addEventListener('cloudcannon:load', function (e) {
-    console.log('CloudCannon load');
-    onLiveEditorLoad(e.detail.CloudCannon);
-  });
-} else {
-  console.log('Window');
-  onLiveEditorLoad(window.CloudCannon);
-}
-
-function onLiveEditorLoad(CloudCannon) {
-  CloudCannon.enableEvents();
-}
-
-document.addEventListener('cloudcannon:update', async function (e) {
-  console.log('CloudCannon Update');
+(function(){
+    const bookshopLiveSetup = (CloudCannon) => {
+      CloudCannon.enableEvents();
+      CloudCannon?.setLoading?.("Loading Bookshop Live Editing");
+      let triggeredLoad = false;
+      const whenLoaded = () => {
+        triggeredLoad = true;
+        CloudCannon?.setLoading?.(false);
+      }
+      setTimeout(() => {
+        if (!triggeredLoad) {
+          CloudCannon?.setLoading?.("Error Loading Bookshop Live Editing");
+          setTimeout(() => {
+            if (!triggeredLoad) { whenLoaded() }
+          }, 2000);
+        }
+      }, 12000);
   
-  const CloudCannon = e.detail.CloudCannon;
-  const latestValue = await CloudCannon.value();
-  console.log(latestValue);
-  CloudCannon.refreshInterface();
-});
-
-async function useNewPageProps(CloudCannon) {
-  const latestValue = await CloudCannon.value();
-  console.log(latestValue);
-  CloudCannon.set('title', 'new title value');
-}
-
-
+      const head = document.querySelector('head');
+      const script = document.createElement('script');
+      script.src = \`/_cloudcannon/bookshop-live.js\`;
+      script.onload = function() {
+        window.bookshopLive = new window.BookshopLive({
+          remoteGlobals: [],
+          loadedFn: whenLoaded,
+        });
+        const updateBookshopLive = async () => {
+          const frontMatter = await CloudCannon.value({
+            keepMarkdownAsHTML: false,
+            preferBlobs: true
+          });
+          const options = window.bookshopLiveOptions || {};
+          const rendered = await window.bookshopLive.update(frontMatter, options);
+          if (rendered) CloudCannon?.refreshInterface?.();
+        }
+        document.addEventListener('cloudcannon:update', updateBookshopLive);
+        updateBookshopLive();
+      }
+      head.appendChild(script);
+    }
+  
+    document.addEventListener('cloudcannon:load', function (e) {
+      bookshopLiveSetup(e.detail.CloudCannon);
+    });
+  })();
 </script>
 </body>
 </html>
