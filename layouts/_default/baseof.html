@@ -18,5 +18,28 @@
         {{ block "main" . }}{{ end }}
     </div>
 </div>
+<script>
+if (!window.CloudCannon) {
+  document.addEventListener('cloudcannon:load', function (e) {
+    console.log('CloudCannon load');
+    onLiveEditorLoad(e.detail.CloudCannon);
+  });
+} else {
+  console.log('Window');
+  onLiveEditorLoad(window.CloudCannon);
+}
+
+function onLiveEditorLoad(CloudCannon) {
+  CloudCannon.enableEvents();
+}
+
+document.addEventListener('cloudcannon:update', async function (e) {
+  useNewPageProps(e.detail.CloudCannon);
+});
+
+async function useNewPageProps(CloudCannon) {
+  const latestValue = await CloudCannon.value();
+}
+</script
 </body>
 </html>
