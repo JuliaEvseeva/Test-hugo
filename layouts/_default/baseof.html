@@ -19,50 +19,24 @@
     </div>
 </div>
 <script>
-(function(){
-    const bookshopLiveSetup = (CloudCannon) => {
-      CloudCannon.enableEvents();
-      CloudCannon?.setLoading?.("Loading Bookshop Live Editing");
-      let triggeredLoad = false;
-      const whenLoaded = () => {
-        triggeredLoad = true;
-        CloudCannon?.setLoading?.(false);
-      }
-      setTimeout(() => {
-        if (!triggeredLoad) {
-          CloudCannon?.setLoading?.("Error Loading Bookshop Live Editing");
-          setTimeout(() => {
-            if (!triggeredLoad) { whenLoaded() }
-          }, 2000);
-        }
-      }, 12000);
+document.addEventListener('cloudcannon:load', function (e) {
+  onLiveEditorLoad(e.detail.CloudCannon);
+});
+
+function onLiveEditorLoad(CloudCannon) {
+  CloudCannon.enableEvents();
+}
+
+document.addEventListener('cloudcannon:update', async function (e) {
+  useNewPageProps(e.detail.CloudCannon);
+});
+
+async function useNewPageProps(CloudCannon) {
+  const latestValue = await CloudCannon.value();
   
-      const head = document.querySelector('head');
-      const script = document.createElement('script');
-      script.onload = function() {
-        window.bookshopLive = new window.BookshopLive({
-          remoteGlobals: [],
-          loadedFn: whenLoaded,
-        });
-        const updateBookshopLive = async () => {
-          const frontMatter = await CloudCannon.value({
-            keepMarkdownAsHTML: false,
-            preferBlobs: true
-          });
-          const options = window.bookshopLiveOptions || {};
-          const rendered = await window.bookshopLive.update(frontMatter, options);
-          if (rendered) CloudCannon?.refreshInterface?.();
-        }
-        document.addEventListener('cloudcannon:update', updateBookshopLive);
-        updateBookshopLive();
-      }
-      head.appendChild(script);
-    }
-  
-    document.addEventListener('cloudcannon:load', function (e) {
-      bookshopLiveSetup(e.detail.CloudCannon);
-    });
-  })();
+  console.log(latestValue);
+}
+
 </script>
 </body>
 </html>
