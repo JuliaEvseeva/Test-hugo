@@ -1,0 +1,5 @@
+collections_config:
+  some:
+    add_options:
+      - name: Add New
+        base_path: ru/some
