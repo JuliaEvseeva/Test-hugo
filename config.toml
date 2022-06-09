@@ -1,5 +1,5 @@
 baseURL = 'https://test-hugo-website.github.io'
-languageCode = 'ru-ru'
-title = 'Test'
+languageCode = 'en-us'
+title = 'Careers'
 
-defaultContentLanguage = 'ru'
+defaultContentLanguage = 'en'

@@ -1,13 +1,11 @@
+[en]
+  languageName = "English"
+  weight = 1
+  [en.params]
+    languageISO = "EN"
+
 [ru]
   languageName = "Russian"
-  contentDir = "content/ru"
-  weight = 1
+  weight = 2
   [ru.params]
     languageISO = "RU"
-
-[ua]
-  languageName = "Ukrainian"
-  contentDir = "content/ua"
-  weight = 2
-  [ua.params]
-    languageISO = "UA"
