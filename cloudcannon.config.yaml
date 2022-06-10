@@ -7,3 +7,4 @@ collections_config:
     careers:
       add_options:
         - name: Добавить вакансию внутри career
+          schema: default
