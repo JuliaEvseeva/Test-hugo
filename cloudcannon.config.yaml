@@ -1,6 +1,4 @@
 collections_config:
-  carrers:
-    path: ru/careers
-    add_options:
-      - name: Добавить вакансию внутри career
-        schema: default
+  ru:
+    url: '/posts/{category|slugify}/[slug].html'
+    path: content/ru/careers
