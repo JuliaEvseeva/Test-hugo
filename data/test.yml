@@ -3,17 +3,17 @@ contacts:
   RuHeading: Контакты
 company:
   heading: Company
-  heading_ru: Компания
+  headingRu: Компания
   items:
     - name: Home
-      name_ru: Главная
+      nameRu: Главная
       url:
       open_in_new_tab: false
     - name: Our Customers
-      name_ru: Наши клиенты
+      nameRu: Наши клиенты
       url:
       open_in_new_tab: false
     - name: Our Partners
-      name_ru: Наши партнеты
+      nameRu: Наши партнеты
       url:
       open_in_new_tab: false
