@@ -1,3 +1,10 @@
-collections_config:
-  ru:
-    url: '/carrers/new.ru.md'
+module.exports = {
+  collections_config: {
+    ru: {
+      path: 'content/posts',
+      output: true,
+      parser: 'yaml',
+      url: '/posts/{category|slugify}/[slug].html'
+    }
+  }
+};
