@@ -1,8 +1,18 @@
 {{ define "main" }}
     {{ .Title }}
-    {{ .Params.hero_pre_heading }}
-    <h1 class="editable" data-i18n="welcome_message">
-    	Hello, welcome. Edit .yml
-    </h1>
-    <p>Text here</p>
+    {{ .Content }}
+<div class="content-holder career-list">
+    <div class="career-list-and-filter">
+        <p>List:</p>
+        {{ $careerPages := where .Site.RegularPages "Type" "careers" }}
+        {{ $allKey := "all" }}
+        <div class="career-list-holder">
+            <div id="{{ $allKey }}" class="tab-content">
+                {{ range $careerPages }}
+                <p>{{ .Title }}</p>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
 {{ end }}
