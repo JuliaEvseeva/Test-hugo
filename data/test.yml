@@ -1,6 +1,6 @@
 contacts:
   heading: Contact Us
-  heading_ru: Контакты
+  RuHeading: Контакты
 company:
   heading: Company
   heading_ru: Компания
