@@ -1,11 +1,11 @@
 contacts:
   heading: 
     - en: Contact Us
-    - ru: Контакты
+      ru: Контакты
 company:
   heading:
     - en: Company
-    - ru: Компания
+      ru: Компания
   items:
     - name: Home
       translation_ru: Главная
