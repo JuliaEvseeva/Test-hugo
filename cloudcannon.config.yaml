@@ -3,3 +3,7 @@ collections_config:
     add_options:
       - name: Add New
         base_path: ru/some
+  ru:
+    careers:
+      add_options:
+        - name: Добавить вакансию внутри career
