@@ -1,21 +1,9 @@
-facebook: https://www.facebook.com/TeamDev/
-instagram: https://www.instagram.com/teamdev_ltd/
-social_section:
-  heading: 'Subscribe to our social networks:'
-  heading_ru: 'Подписывайтесь на&nbsp;наши социальные сети:'
-  subheading: Follow our activities and events on our Facebook and Instagram pages.
-  subheading_ru: Следите за нашими мероприятиями на страницах в Facebook и&nbsp;Instagram.
-  test_value: 'Text:'
-  testRu: 'Text 2:'
-  something_ru: 'Что-то'
-apply_section:
-  heading: What’s Next
-  headings_ru: Что дальше?
-  subheading: >-
-    Please fill in the application for this position and we will get in
-    touch&nbsp;shortly!
-  subheading_ru: >-
-    Пожалуйста, заполните заявку на эту вакансию, и мы свяжемся с вами в
-    ближайшее время!
-  button_label: Apply
-  button_label_ru: Подать заявку
+company:
+  heading: Компания
+  items:
+    - name: Главная
+      url:
+      open_in_new_tab: false
+    - name: Наши клиенты
+      url:
+      open_in_new_tab: false
