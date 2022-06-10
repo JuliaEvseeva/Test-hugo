@@ -1,10 +1,19 @@
+contacts:
+  heading: Contact Us
+  heading_ru: Контакты
 company:
-  heading: Компания
+  heading: Company
+  heading_ru: Компания
   items:
-    - name: Главная
-      name_en: Main
+    - name: Home
+      name_ru: Главная
       url:
       open_in_new_tab: false
-    - name: Наши клиенты
+    - name: Our Customers
+      name_ru: Наши клиенты
+      url:
+      open_in_new_tab: false
+    - name: Our Partners
+      name_ru: Наши партнеты
       url:
       open_in_new_tab: false
