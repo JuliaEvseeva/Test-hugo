@@ -1,3 +1,3 @@
 collections_config:
   ru:
-    url: '/posts/{category|slugify}/[slug].html'
+    url: '/carrers/new.ru.md'
