@@ -2,6 +2,7 @@ company:
   heading: Компания
   items:
     - name: Главная
+      name_en: Main
       url:
       open_in_new_tab: false
     - name: Наши клиенты
