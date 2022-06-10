@@ -4,7 +4,6 @@ collections_config:
       - name: Add New
         schema: default
   ru:
-    careers:
-      add_options:
-        - name: Добавить вакансию внутри career
-          schema: default
+    add_options:
+      - name: Добавить вакансию внутри career
+        schema: default
