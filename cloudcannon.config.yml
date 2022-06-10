@@ -3,3 +3,7 @@ collections_config:
     add_options:
       - name: Add new custom career
         schema: default
+  ru:
+    add_options:
+      - name: Добавить вакансию
+        schema: default
