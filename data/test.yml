@@ -1,19 +1,19 @@
 contacts:
-  heading: 
-    - en: Contact Us
-      ru: Контакты
+  heading: Contact Us
+  ru: Контакты
 company:
-  heading:
-    - en: Company
-      ru: Компания
+  heading: Company
+  ru: Компания
   items:
     - name: Home
-      translation_ru: Главная
+      ru: Главная
       url:
       open_in_new_tab: false
     - name: Our Customers
-      translation_ru: Наши клиенты
+      ru: Наши клиенты
       url:
       open_in_new_tab: false
     - name: Our Partners
-      translation_ru: Наши партнеты
+      ru: Наши партнеты
+      url:
+      open_in_new_tab: false
