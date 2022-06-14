@@ -3,7 +3,6 @@ title: Some title
 name: Name of the file
 date: "2022-01-10"
 authors:
-  - some
 draft: false
 _inputs:
   title:
@@ -11,14 +10,7 @@ _inputs:
   authors:
     type: multiselect
     options:
-      values: _select_data.inventory
-      value_key: key
-      text_key: display_name
-_select_data:
-  inventory:
-    - key: P1
-      display_name: Potion
-      kind: consumable
+      values: collections.careers
 ---
 
 ## Why the Project is Important
