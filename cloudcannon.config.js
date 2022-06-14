@@ -4,7 +4,7 @@ module.exports = {
       url: (filePath, parsed, { filters }) => {
         const year = new Date(parsed.date).getFullYear();
         const slug = filters.slugify(parsed.title || '');
-        return `/careers/${year}/${slug}/`;
+        return `/careers/${year}-${slug}.en.md`;
       },
       output: true,
       add_options: [
