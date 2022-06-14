@@ -12,6 +12,8 @@ _inputs:
     type: multiselect
     options:
       values: _select_data.inventory
+      value_key: key
+      text_key: display_name
 _select_data:
   inventory:
     - key: P1
