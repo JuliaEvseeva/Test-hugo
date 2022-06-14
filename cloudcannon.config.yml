@@ -6,10 +6,8 @@ collections_config:
     schemas:
       english:
         path: schemas/test.md
-    path: 'content/carrers'
     url: '/people/{department|slugify}/[slug]/'
     output: true
-    name: 'Personnel'
   ru:
     add_options:
       - name: Добавить вакансию
