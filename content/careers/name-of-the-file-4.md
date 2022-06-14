@@ -1,0 +1,16 @@
+---
+_schema: draft
+title: content/ru/careers/developer.md
+name: Name of the file
+date: 2022-01-10T00:00:00Z
+authors:
+draft: false
+_inputs:
+  title:
+    type: select
+    options:
+      values: collections.ru
+---
+## Why the Project is Important
+
+Project description.
