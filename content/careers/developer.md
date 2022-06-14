@@ -1,6 +1,6 @@
 ---
 title: Developer
-categories: some
+authors: []
 ---
 
 Career content
