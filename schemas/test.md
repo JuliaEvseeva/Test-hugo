@@ -7,7 +7,7 @@ draft: false
 _inputs:
   title:
     comment: name of the file
-  categories:
+  authors:
     type: multiselect
 ---
 
