@@ -20,7 +20,7 @@ module.exports = {
     }
   },
   data_config: {
-    authors: {
+    careers: {
       path: 'data/authors.yml'
     }
   },
