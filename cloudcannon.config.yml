@@ -9,7 +9,7 @@ collections_config:
     path: 'content/carrers'
     url: '/people/{department|slugify}/[slug]/'
     output: true
-    name: 'Personnel',
+    name: 'Personnel'
   ru:
     add_options:
       - name: Добавить вакансию
