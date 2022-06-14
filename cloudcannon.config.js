@@ -1,11 +1,7 @@
 module.exports = {
   collections_config: {
     careers: {
-      url: (filePath, parsed, { filters }) => {
-        const year = new Date(parsed.date).getFullYear();
-        const slug = filters.slugify(parsed.title || '');
-        return `/careers/${year}-${slug}.en.md`;
-      },
+      url: `/careers/[slug].en.md`,
       output: true,
       add_options: [
         {
