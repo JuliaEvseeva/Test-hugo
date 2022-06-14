@@ -21,7 +21,7 @@ module.exports = {
   },
   data_config: {
     authors: {
-      path: 'data/categor.yml'
+      path: 'data/authors.yml'
     }
   },
 }
