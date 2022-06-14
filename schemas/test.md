@@ -10,7 +10,7 @@ _inputs:
   authors:
     type: multiselect
     options:
-      values: collections.careers
+      values: data.authors
 ---
 
 ## Why the Project is Important
