@@ -1,11 +1,11 @@
 module.exports = {
   collections_config: {
     careers: {
-      parser: (filePath, raw, { parsers, filters }) => {
-        const parsed = parsers['front-matter'].parse(raw);
+      url: (filePath, parsed, { filters }) => {
+        const year = new Date(parsed.date).getFullYear();
         const slug = filters.slugify(parsed.title || '');
-        return { ...data, slug };
-      }
+        return `/posts/${year}/${slug}/`;
+      },
     }
   }
 }
