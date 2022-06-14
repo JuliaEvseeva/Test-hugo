@@ -2,7 +2,7 @@ collections_config:
   careers:
     add_options:
       - name: Add new custom career
-        schema: default
+        schema: schemas/test.md
   ru:
     add_options:
       - name: Добавить вакансию
