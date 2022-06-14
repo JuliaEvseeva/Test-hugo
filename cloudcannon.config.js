@@ -6,6 +6,7 @@ module.exports = {
         const slug = filters.slugify(parsed.title || '');
         return `/posts/${year}/${slug}/`;
       },
+      output: true
     }
   }
 }
