@@ -11,7 +11,7 @@ _inputs:
   authors:
     type: multiselect
     options:
-      values: data_config.authors
+      values: authors
 ---
 
 ## Why the Project is Important
