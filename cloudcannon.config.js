@@ -20,7 +20,7 @@ module.exports = {
     }
   },
   data_config: {
-    categories: {
+    authors: {
       path: 'data/categor.yml'
     }
   },
