@@ -6,11 +6,9 @@ authors:
 draft: false
 _inputs:
   title:
-    comment: name of the file
-  authors:
     type: multiselect
     options:
-      values: data.authors
+      values: collections.careers
 ---
 
 ## Why the Project is Important
