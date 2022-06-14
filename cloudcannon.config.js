@@ -19,4 +19,9 @@ module.exports = {
       }
     }
   }
+  data_config: {
+    categories: {
+      path: 'data/categor.yml',
+    }
+  }
 }
