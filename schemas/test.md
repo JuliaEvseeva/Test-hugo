@@ -8,7 +8,7 @@ _inputs:
   title:
     type: select
     options:
-      values: collections.careers
+      values: collections.ru
 ---
 
 ## Why the Project is Important
