@@ -11,7 +11,12 @@ _inputs:
   authors:
     type: multiselect
     options:
-      values: data.authors
+      values: _select_data.inventory
+_select_data:
+  inventory:
+    - key: P1
+      display_name: Potion
+      kind: consumable
 ---
 
 ## Why the Project is Important
