@@ -6,6 +6,17 @@ collections_config:
     schemas:
       english:
         path: schemas/test.md
+    // Reads the contents of each file in this directory
+    path: 'content/carrers',
+
+    // The URL template for items in this collection
+    url: '/people/{department|slugify}/[slug]/',
+
+    // Tells CloudCannon this collection produces output files
+    output: true
+
+    // CloudCannon collection-level configuration
+    name: 'Personnel',
   ru:
     add_options:
       - name: Добавить вакансию
