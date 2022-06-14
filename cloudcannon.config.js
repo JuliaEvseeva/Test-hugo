@@ -10,12 +10,10 @@ module.exports = {
       add_options: [
         {
           name: 'Add Post',
-          editor: 'content'
         },
         {
           name: 'Add Draft',
-          editor: 'content',
-          schema: draft
+          schema: 'draft'
         },
       ],
       schemas: {
