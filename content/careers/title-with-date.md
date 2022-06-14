@@ -1,3 +1,0 @@
----
-title: Title with date
----
