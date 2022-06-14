@@ -6,7 +6,7 @@ authors:
 draft: false
 _inputs:
   title:
-    type: multiselect
+    type: select
     options:
       values: collections.careers
 ---
