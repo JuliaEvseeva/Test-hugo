@@ -24,9 +24,4 @@ module.exports = {
       path: 'data/categor.yml'
     }
   },
-  _inputs: {
-    categories: {
-      type: "multiselect",
-    }
-  }
 }
