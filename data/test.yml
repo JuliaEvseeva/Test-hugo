@@ -17,3 +17,10 @@ company:
       ru: Наши партнеты
       url:
       open_in_new_tab: false
+subscribe_section:
+  homepage:
+    heading: 'some'
+  career_page:
+    heading: 'career title'
+    subheading: 'career subheading'
+    button: 'Apply'
