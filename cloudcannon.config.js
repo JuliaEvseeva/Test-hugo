@@ -24,4 +24,12 @@ module.exports = {
       path: 'data/authors.yml'
     }
   },
+  _inputs: {
+    tags: {
+      type: select,
+      options: {
+        values: ["Bolt", "Nut", "Gear"]
+      }
+    }
+  }
 }
