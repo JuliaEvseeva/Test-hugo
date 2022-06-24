@@ -1,7 +1,7 @@
 ---
 title: Developer
-authors: []
-tags:
+authors:
+tags: Nut
 ---
 
 Career content
