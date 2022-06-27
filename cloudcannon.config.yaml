@@ -5,6 +5,7 @@ collections_config:
       - content
       - source
   ru:
+    path: content/ru/careers
     add_options:
       - name: New test file
         schema: test
