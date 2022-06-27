@@ -1,0 +1,10 @@
+collections_config:
+  pages:
+    _enabled_editors:
+      - visual
+      - content
+      - source
+  ru:
+    add_options:
+      - name: New test file
+        schema: schemas/test.md
