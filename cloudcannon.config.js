@@ -30,6 +30,12 @@ module.exports = {
       options: {
         values: ["Bolt", "Nut", "Gear"]
       }
+    },
+    direction: {
+      type: "multiselect",
+      options: {
+        values: ["Bolt", "Nut", "Gear"]
+      }
     }
   }
 }
