@@ -6,3 +6,4 @@ defaultContentLanguage = 'en'
 
 [taxonomies]
   direction = "direction"
+  category = "category"
