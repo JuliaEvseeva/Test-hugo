@@ -25,7 +25,7 @@ module.exports = {
     }
   },
   _inputs: {
-    tags: {
+    category: {
       type: "select",
       options: {
         values: ["Bolt", "Nut", "Gear"]
