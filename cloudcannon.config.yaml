@@ -5,7 +5,7 @@ collections_config:
       - content
       - source
   ru:
-    singular_name: Staff Member
+    singular_name: Вакансия
     add_options:
       - name: New test file
         schema: test
