@@ -13,3 +13,6 @@ collections_config:
     schemas:
       test:
         path: schemas/test.md
+    _inputs:
+      title:
+        comment: Some comment for the title
