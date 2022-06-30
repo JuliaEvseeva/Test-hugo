@@ -4,6 +4,13 @@ collections_config:
       - visual
       - content
       - source
+  en:
+    add_options:
+      - name: New file
+        schema: new
+    schemas:
+      new:
+        path: schemas/schema_en.md
   ru:
     singular_name: Вакансия
     add_options:
