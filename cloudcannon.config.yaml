@@ -12,13 +12,13 @@ collections_config:
     schemas:
       test:
         path: schemas/test.md
-    _inputs:
-      title:
-        comment: Some comment for the title
-      select_input:
-        type: select
-        options:
-          values: _select_data.offices
+  _inputs:
+    title:
+      comment: Some comment for the title
+    offices:
+      type: select
+      options:
+        values: _select_data.offices
   _select_data:
     offices:
       - One
