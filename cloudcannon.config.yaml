@@ -15,3 +15,12 @@ collections_config:
     _inputs:
       title:
         comment: Some comment for the title
+      select_input:
+        type: select
+        options:
+          values: data.offices
+data_config:
+  offices:
+    # Reads the contents of each file in this directory
+    path: data/offices
+    parser: json
