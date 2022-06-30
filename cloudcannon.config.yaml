@@ -16,7 +16,7 @@ _inputs:
   category:
     type: select
     options:
-      values: data.categories
+      values: data_config.categories
       value_key: key
       text_key: display_name
 _select_data:
