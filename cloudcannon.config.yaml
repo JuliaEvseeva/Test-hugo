@@ -13,13 +13,16 @@ collections_config:
       test:
         path: schemas/test.md
 _inputs:
-  title:
-    comment: Some comment for the title
-  offices:
+  category:
     type: select
     options:
-      values: offices
-data_config:
-  offices:
-    # Reads the contents of each file in this directory
-    path: data/authors.csv
+      values: _select_data.categories
+      value_key: key
+      text_key: display_name
+_select_data:
+  categories:
+    - key: services
+      display_name: Services
+      name_ru: Сервисы
+      name_ua: Сервіси
+
