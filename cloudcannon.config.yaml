@@ -19,8 +19,8 @@ collections_config:
         type: select
         options:
           values: data.offices
-data_config:
-  offices:
-    # Reads the contents of each file in this directory
-    path: data/offices
-    parser: json
+  data_config:
+    offices:
+      # Reads the contents of each file in this directory
+      path: data/offices
+      parser: json
