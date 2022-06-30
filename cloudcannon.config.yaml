@@ -11,7 +11,7 @@ collections_config:
         schema: test
     schemas:
       test:
-        path: schemas/test.md
+        path: schemas/test-ru.md
 _inputs:
   category:
     type: select
