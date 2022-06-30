@@ -18,7 +18,7 @@ _inputs:
   offices:
     type: select
     options:
-      values: _select_data.offices
+      values: data.offices
 _select_data:
   offices:
     - One
