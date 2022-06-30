@@ -18,7 +18,7 @@ collections_config:
       select_input:
         type: select
         options:
-          values: _select_data.offices
+          values: data.offices
 data_config:
   offices:
     # Reads the contents of each file in this directory
