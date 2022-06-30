@@ -12,20 +12,20 @@ collections_config:
     schemas:
       test:
         path: schemas/test.md
-  _inputs:
-    title:
-      comment: Some comment for the title
-    offices:
-      type: select
-      options:
-        values: _select_data.offices
-  _select_data:
-    offices:
-      - One
-      - Two
-      - Three
-  data_config:
-    offices:
-      # Reads the contents of each file in this directory
-      path: data/offices
-      parser: json
+_inputs:
+  title:
+    comment: Some comment for the title
+  offices:
+    type: select
+    options:
+      values: _select_data.offices
+_select_data:
+  offices:
+    - One
+    - Two
+    - Three
+data_config:
+  offices:
+    # Reads the contents of each file in this directory
+    path: data/offices
+    parser: json
