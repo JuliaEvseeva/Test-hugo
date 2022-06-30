@@ -1,0 +1,9 @@
+categories:
+  - key: services
+    display_name: Services
+    name_ru: Сервисы
+    name_ua: Сервіси
+  - key: products
+      display_name: Products
+      name_ru: Сервисы
+      name_ua: Сервіси
