@@ -27,5 +27,4 @@ _select_data:
 data_config:
   offices:
     # Reads the contents of each file in this directory
-    path: data/offices.yml
-    parser: yaml
+    path: data/authors.csv
