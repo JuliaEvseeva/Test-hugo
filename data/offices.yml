@@ -1,7 +1,4 @@
-key:
-  - string1
-  - string2      
-  - string3
-  - string4
-  - string5
-  - string6
+- name: One
+- name: Two
+- name: Three
+- name: Data
