@@ -23,13 +23,8 @@ _inputs:
   category:
     type: select
     options:
-      values: data.options.categories
+      values: data.options
       value_key: key
-      text_key: display_name
-  direction:
-    type: select
-    options:
-      values: data.options.directions
       text_key: display_name
 
 data_config: true
