@@ -1,8 +1,10 @@
 - key: services
   display_name: Services
-  translation_ru: Сервисы
-  translation_ua: Сервіси
+  translations:
+    ru: Сервисы
+    ua: Сервіси
 - key: products
-  display_name: Products
-  name_ru: Сервисы
-  name_ua: Сервіси
+  display_name: Product
+  translations:
+    ru: Продукт
+    ua: Продукт
