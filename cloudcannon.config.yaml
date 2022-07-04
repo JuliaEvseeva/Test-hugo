@@ -32,10 +32,5 @@ _select_data:
       display_name: Services
       name_ru: Сервисы
       name_ua: Сервіси
-ssg: hugo
-ssgs:
-    hugo: Hugo
-data_config:
-  categories:
-    path: data/categories.yml
+data_config: true
 
