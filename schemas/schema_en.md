@@ -2,4 +2,5 @@
 title:
 author:
 image:
+category:
 ---
