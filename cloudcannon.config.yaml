@@ -23,14 +23,14 @@ _inputs:
   category:
     type: select
     options:
-      values: data.categories
+      values: data.categories.categories
       value_key: key
       text_key: display_name
-_select_data:
-  categories:
-    - key: services
-      display_name: Services
-      name_ru: Сервисы
-      name_ua: Сервіси
+  direction:
+    type: select
+    options:
+      values: data.categories.directions
+      text_key: display_name
+
 data_config: true
 
