@@ -7,9 +7,3 @@ categories:
     display_name: Products
     name_ru: Сервисы
     name_ua: Сервіси
-    
-directions:
-  - key: java
-    display_name: Java
-  - key: net
-    display_name: net
