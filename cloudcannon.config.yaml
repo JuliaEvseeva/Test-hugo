@@ -23,7 +23,7 @@ _inputs:
   category:
     type: select
     options:
-      values: data_config.categories
+      values: _select_data.categories
       value_key: key
       text_key: display_name
 _select_data:
