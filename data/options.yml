@@ -11,3 +11,5 @@ categories:
 directions:
   - key: java
     display_name: Java
+  - key: net
+    display_name: net
