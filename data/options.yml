@@ -1,10 +1,6 @@
-- key: Services
-  rus: Сервисы
-  ua: Сервіси
-  definitions: 
-    en: Services definition
-    rus: Services definition in Russian
-    ua: Services definition in Ukrainian
 - key: Product
-  rus: Продукт
-  ua: Продукт
+  name_rus: Продукт
+  name_ua: Продукт
+- key: Services
+  name_rus: Сервисы
+  name_ua: Сервіси
