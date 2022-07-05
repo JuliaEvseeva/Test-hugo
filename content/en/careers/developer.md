@@ -2,9 +2,9 @@
 title: Developer
 authors:
 tags: Nut
-direction: 
+direction:
  - Some
-category:
+category: Services
 ---
 
 Career content
