@@ -25,7 +25,7 @@ _inputs:
     options:
       values: data.options
       value_key: key
-      text_key: key
+      text_key: name
 
 data_config: true
 
