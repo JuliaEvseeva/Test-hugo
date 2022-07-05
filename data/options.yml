@@ -1,9 +1,9 @@
 - key: Services
-  hello: Сервисы
+  rus: Сервисы
   ua: Сервіси
   definition: Services definition
-  definition_hello: Services definition in Russian
+  definition_rus: Services definition in Russian
   definition_ua: Services definition in Ukrainian
 - key: Product
-  hello: Продукт
+  rus: Продукт
   ua: Продукт
