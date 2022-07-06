@@ -3,6 +3,7 @@
     {{ .Content }}
 <div class="content-holder career-list">
     <div class="career-list-and-filter">
+        <h3 class="title">{{ i18n "footer.organizers" }}</h3>
         <p>List:</p>
         {{ $careerPages := where .Site.RegularPages "Type" "careers" }}
         {{ $allKey := "all" }}
