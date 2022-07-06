@@ -19,6 +19,8 @@ collections_config:
     schemas:
       test:
         path: schemas/test_ru.md
+  i18n:
+    singular_name: Translation
 _inputs:
   category:
     type: select
