@@ -19,6 +19,14 @@ collections_config:
     schemas:
       test:
         path: schemas/test_ru.md
+  ua:
+    singular_name: Вакансия
+    add_options:
+      - name: New test file
+        schema: test
+    schemas:
+      test:
+        path: schemas/test_ru.md
   i18n:
     singular_name: Translation
     path: i18n
