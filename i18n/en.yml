@@ -1,25 +1,2 @@
-back_to_vacancies: "Back to vacancies"
-subscribe_section:
-  homepage:
-    heading: "Subscribe to our news"
-  career_page:
-    heading: "What’s next"
-    subheading: "Please fill in the application for this position and we will get in touch&nbsp;shortly!"
-    btn_label: "Apply"
-cookie_notice:
-  text: "uses cookies to help operate the site and gather analytics data. You can read more about it in our"
-  privacy_link: "Privacy&nbsp;Statement"
-  btn_label: "I agree"
-tabs:
-  all_careers: "All"
-  product: "Product"
-  definition_vacancies: "Vacancies "
-  definition_product: "for products developed by TeamDev"
-  services: "Services"
-  definition_services: "for software development services projects"
-hero_details:
-  timezone: "Time zone"
-  commitment: "Commitment"
-  personal_recruiter: "Personal recruiter"
-  direction: "Direction"
-  category: "Category"
+footer:
+  organizers: "Organizers"
