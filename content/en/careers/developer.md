@@ -4,7 +4,8 @@ authors:
 tags: Nut
 direction:
  - Some
-category: Services
+category:
+  - some_text
 ---
 
 Career content
