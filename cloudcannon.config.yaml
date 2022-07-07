@@ -34,16 +34,16 @@ _inputs:
   category:
     type: multiselect
     options:
-      values: _select_data.inventory
+      values: data.options
       value_key: key
       text_key: display_name
       
 _select_data:
   inventory:
-    - key: P1
+    - key: some_text
       display_name: Potion
       kind: consumable
-    - key: P2
+    - key: some_text_new
       display_name: Potion 2
       kind: consumable
 
