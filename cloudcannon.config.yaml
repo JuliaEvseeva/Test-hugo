@@ -32,7 +32,7 @@ collections_config:
     path: i18n
 _inputs:
   category:
-    type: select
+    type: multiselect
     options:
       values: data.options
       value_key: key
