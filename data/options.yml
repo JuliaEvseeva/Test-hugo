@@ -1,5 +1,7 @@
 options:
- - key: p1
-   display_name: Potion
- - key: p2
-   display_name: Potion 2
+  - key: p1
+    display_name: Potion
+    kind: consumable
+  - key: p2
+    display_name: Potion 2
+    kind: consumable
