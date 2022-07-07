@@ -11,22 +11,6 @@ collections_config:
     schemas:
       new:
         path: schemas/schema_en.md
-  ru:
-    singular_name: Вакансия
-    add_options:
-      - name: New test file
-        schema: test
-    schemas:
-      test:
-        path: schemas/test_ru.md
-  ua:
-    singular_name: Вакансия
-    add_options:
-      - name: New test file
-        schema: test
-    schemas:
-      test:
-        path: schemas/test_ru.md
   i18n:
     singular_name: Translation
     path: i18n
@@ -37,15 +21,5 @@ _inputs:
       values: data.options
       value_key: key
       text_key: display_name
-      
-_select_data:
-  inventory:
-    - key: some_text
-      display_name: Potion
-      kind: consumable
-    - key: some_text_new
-      display_name: Potion 2
-      kind: consumable
 
 data_config: true
-

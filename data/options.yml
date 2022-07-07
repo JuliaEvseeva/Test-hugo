@@ -1,4 +1,4 @@
-- key: some_text
-  display_name: Potion
-- key: some_text_new
-  display_name: Potion 2
+- key: power
+  display_name: Power
+- key: new_power
+  display_name: New Power
