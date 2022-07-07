@@ -4,7 +4,8 @@ title: test-file
 author:
 image:
 category:
-  - P2
-  - P1
+  - some_text_new
+  - some_text
 direction:
 ---
+
