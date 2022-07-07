@@ -1,6 +1,4 @@
 - key: some_text
   display_name: Potion
-  kind: consumable
 - key: some_text_new
   display_name: Potion 2
-  kind: consumable
