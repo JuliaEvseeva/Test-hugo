@@ -1,0 +1,9 @@
+company:
+  heading: Компания
+  items:
+    - name: Главная
+      url:
+      open_in_new_tab: false
+    - name: Наши клиенты
+      url:
+      open_in_new_tab: false

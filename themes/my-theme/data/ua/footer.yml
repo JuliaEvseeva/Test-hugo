@@ -1,0 +1,9 @@
+company:
+  heading: Компанія
+  items:
+    - name: Головна
+      url:
+      open_in_new_tab: false
+    - name: Наші клієнти
+      url:
+      open_in_new_tab: false

@@ -1,0 +1,9 @@
+company:
+  heading: Company
+  items:
+    - name: Home
+      url:
+      open_in_new_tab: false
+    - name: Our customers
+      url:
+      open_in_new_tab: false
