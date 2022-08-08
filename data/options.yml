@@ -1,6 +1,6 @@
 - key: power
   display_name: Power
-  display_nameru: Сила
+  display_name_rus: Сила
 - key: new_power
   display_name: New Power
-  display_nameru: Новая Сила
+  display_name_rus: Новая Сила
