@@ -1,5 +1,6 @@
 [en]
   languageName = "English"
+  baseURL = "https://juliaevseeva.github.io/Test-hugo"
   contentDir = "content/en"
   weight = 1
   [en.params]
@@ -7,6 +8,7 @@
 
 [ru]
   languageName = "Russian"
+  baseURL = "https://juliaevseeva.github"
   contentDir = "content/ru"
   weight = 2
   [ru.params]

@@ -1,4 +1,3 @@
-baseURL = 'https://juliaevseeva.github.io'
 languageCode = 'en-us'
 title = 'Test website'
 theme = 'my-theme'
