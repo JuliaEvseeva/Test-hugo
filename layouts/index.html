@@ -6,6 +6,8 @@
     {{.Params.file_path}}
 
     {{ with .Site.GetPage (string .Params.file_path) }}
+        {{ $lastmod := .Lastmod.UTC.Format "Jan 2, 2006" }}
+        <p class="date">{{ i18n "last_updated" }} {{ $lastmod }}</p>
         <p>Version {{ .Params.version }}</p>
         {{ .Content }}
     {{ end }}
