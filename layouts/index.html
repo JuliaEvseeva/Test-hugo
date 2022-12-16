@@ -2,4 +2,9 @@
     {{ .Title }}
     {{ .Content }}
     <h3 class="title-for-this-website">{{ i18n "footer.organizers" }}</h3>
+
+    {{ with .Site.GetPage "/content/en/test/test-file.md" }}
+        <p>Version {{ .Params.version }}</p>
+        {{ .Content }}
+    {{ end }}
 {{ end }}
