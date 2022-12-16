@@ -3,7 +3,9 @@
     {{ .Content }}
     <h3 class="title-for-this-website">{{ i18n "footer.organizers" }}</h3>
 
-    {{ with .Site.GetPage "/content/en/test/test-file.md" }}
+    {{.Params.file_path}}
+
+    {{ with .Site.GetPage (string .Params.file_path) }}
         <p>Version {{ .Params.version }}</p>
         {{ .Content }}
     {{ end }}
