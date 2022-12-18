@@ -1,0 +1,27 @@
+{{ define "main" }}
+    <h3>{{ .Params.Title }}</h3>
+    {{ $file := .Params.file_path }}
+    {{ .Site.GetPage $file }}
+    {{ if isset .Params "file_path" }}
+        {{ with .Site.GetPage $file }}
+            <div class="title-section">
+                {{ $lastmod := .Lastmod.UTC.Format "Jan 2, 2006" }}
+                <p>{{ i18n "last_updated" }} {{ $lastmod }}</p>
+            </div>
+            {{ .TableOfContents }}
+            {{ with .Params.version }}
+                <p>Version: {{ . }}</p>
+            {{ end }}
+            {{ .Content }}
+        {{ end }}
+    {{ else }}
+        <div class="title-section">
+            {{ $lastmod := .Lastmod.UTC.Format "Jan 2, 2006" }}
+            <p>{{ i18n "last_updated" }} {{ $lastmod }}</p>
+        </div>
+        <div class="license-content">
+            {{ .TableOfContents }}
+            {{ .Content }}
+        </div>
+    {{ end }}
+{{ end }}
