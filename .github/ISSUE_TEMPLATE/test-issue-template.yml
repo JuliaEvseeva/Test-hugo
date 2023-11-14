@@ -13,6 +13,14 @@ body:
       placeholder: 'Describe a feature teaser that you are going to add or edit'
     validations:
       required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: The feature translation will be done
+      options:
+        - Within this task
+        - In a separate task
+      default: 0
   - type: markdown
     attributes:
       value: "## Checklist before releasing a teaser into production"
