@@ -15,7 +15,7 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: "## Please go through the checklist before publishing a teaser to production"
+      value: "## Checklist before releasing a teaser into production"
   - type: checkboxes
     id: image_checklist
     attributes:
