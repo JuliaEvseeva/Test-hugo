@@ -15,7 +15,7 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: Please go through the checklist before publishing a teaser
+      value: value: "## Please go through the checklist before publishing a teaser to production"
   - type: checkboxes
     id: image_checklist
     attributes:
@@ -32,7 +32,7 @@ body:
     attributes:
       label: Feature teaser configuration
       options:
-        - label: 'The `"modal": {}` property is declared.'
+        - label: 'The teaser content is declared inside `"modal": {}`, allowing the teaser to be opened.'
         - label: 'All necessary image properties are configured: `image_path`, `image_alt`, `full_width`, `has_shadow`, `has_border_radius`.'
         - label: 'The `hashtag` is added to open the feature via a link. The `hashtag` should be in English in lowercase style. For example `"hashtag": "html-css-javascript"` and should be the same for all feature translations.'
   - type: checkboxes
