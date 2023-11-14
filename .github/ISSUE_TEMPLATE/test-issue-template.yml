@@ -1,64 +1,42 @@
-name: Test
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
+name: Feature Teaser
+description: Create or edit a feature teaser
+title: "Create a feature teaser [teaser name]"
+labels: ["🏠 Home", "teaser"]
+projects: ["JxBrowser Content"]
 assignees:
   - octocat
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
   - type: textarea
-    id: what-happened
+    id: goal
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Description
+      placeholder: 'Describe a feature teaser that you are going to add or edit'
     validations:
       required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
   - type: checkboxes
-    id: terms
+    id: image_checklist
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      label: Feature image requirements
       options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+        - label: 'The font-family is [Pragmatica](https://drive.google.com/drive/folders/1as-BIQ4R1ArAx40-xQHSzBrLGc0cvXh1).'
+        - label: 'The font-size of the body text is `15px`.'
+        - label: 'The width of the image is `834px` if it is possible'
+        - label: 'The image is saved in `webp` format.'
+        - label: 'The file name is in lowercase and with hyphens to separate words. For example `my-new-feature.webp`.'
+        - label: 'Added in `static/images/product-visuals/[product-name]/features/` folder and provided in the `image_path` variable as `/images/product-visuals/[product-name]/features/my-new-feature.webp`.'
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Feature teaser configuration
+      description: Please make sure everything is configured correctly
+      options:
+        - label: 'Attributes'
+  - type: checkboxes
+    id: release_checklist
+    attributes:
+      label: Teaser release
+      options:
+        - label: 'Spelling is correct.'
+        - label: 'The feature teaser looks good upon window resizing.'
+        - label: 'Looks good in Chrome, Safari, Firefox, iOS, Android.'
+        - label: 'All links are leading where intended.'
