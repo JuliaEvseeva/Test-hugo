@@ -19,11 +19,11 @@ body:
       label: The feature translation will be done
       options:
         - Within this task
-        - In a separate task
+        - In separate tasks
       default: 0
   - type: markdown
     attributes:
-      value: "## Checklist before releasing a teaser into production"
+      value: "## Go through the checklist before releasing a teaser into production"
   - type: checkboxes
     id: image_checklist
     attributes:
@@ -52,3 +52,4 @@ body:
         - label: 'The feature teaser looks good upon window resizing.'
         - label: 'Looks good in Chrome, Safari, Firefox, iOS, Android.'
         - label: 'All links are leading where intended.'
+        - label: 'Created tasks for translations of the current teaser.'
