@@ -42,6 +42,12 @@ body:
       options:
         - label: 'The teaser content is declared inside `"modal": {}`, allowing the teaser to be opened.'
         - label: 'All necessary image properties are configured: `image_path`, `image_alt`, `full_width`, `has_shadow`, `has_border_radius`.'
+          description: |
+            ```
+            "image": {
+              "test"
+            }
+            ```
         - label: 'The `hashtag` is added to open the feature via a link. The `hashtag` should be in English in lowercase style. For example `"hashtag": "html-css-javascript"` and should be the same for all feature translations.'
   - type: checkboxes
     id: release_checklist
