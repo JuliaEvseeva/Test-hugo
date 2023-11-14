@@ -9,7 +9,7 @@ body:
   - type: textarea
     id: goal
     attributes:
-      label: Description
+      label: The goal of the task
       placeholder: 'Describe a feature teaser that you are going to add or edit'
     validations:
       required: true
@@ -20,17 +20,18 @@ body:
       options:
         - label: 'The font-family is [Pragmatica](https://drive.google.com/drive/folders/1as-BIQ4R1ArAx40-xQHSzBrLGc0cvXh1).'
         - label: 'The font-size of the body text is `15px`.'
-        - label: 'The width of the image is `834px` if it is possible'
+        - label: 'The width of the image is `834px` if it is possible.'
         - label: 'The image is saved in `webp` format.'
-        - label: 'The file name is in lowercase and with hyphens to separate words. For example `my-new-feature.webp`.'
-        - label: 'Added in `static/images/product-visuals/[product-name]/features/` folder and provided in the `image_path` variable as `/images/product-visuals/[product-name]/features/my-new-feature.webp`.'
+        - label: 'The image file name is in lowercase and with hyphens to separate words. For example `4k-60fps-diagram.webp`.'
+        - label: 'Added in `static/images/product-visuals/[product-name]/features/` folder and provided as `"image_path": "/images/product-visuals/jxbrowser/features/4k-60fps-diagram.webp"`.'
   - type: checkboxes
-    id: checklist
+    id: configuration_checklist
     attributes:
       label: Feature teaser configuration
-      description: Please make sure everything is configured correctly
       options:
-        - label: 'Attributes'
+        - label: 'The `"modal": {}` property is declared.'
+        - label: 'All necessary image properties are configured: `image_path`, `image_alt`, `full_width`, `has_shadow`, `has_border_radius`.'
+        - label: 'The `hashtag` is added to open the feature via a link. The `hashtag` should be in English in lowercase style. For example `"hashtag": "html-css-javascript"` and should be the same for all feature translations.'
   - type: checkboxes
     id: release_checklist
     attributes:
