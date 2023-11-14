@@ -1,5 +1,5 @@
 name: Feature Teaser
-description: Create or edit a feature teaser
+description: A task for creating or updating a feature teaser
 title: "Create a feature teaser [teaser name]"
 labels: ["🏠 Home", "teaser"]
 projects: ["JxBrowser Content"]
@@ -10,7 +10,7 @@ body:
     id: goal
     attributes:
       label: The goal of the task
-      placeholder: 'Describe a feature teaser that you are going to add or edit'
+      placeholder: 'Describe a feature teaser that you are going to add or update'
     validations:
       required: true
   - type: dropdown
@@ -34,7 +34,7 @@ body:
         - label: 'The width of the image is `834px` if it is possible.'
         - label: 'The image is saved in `webp` format.'
         - label: 'The image file name is in lowercase and with hyphens to separate words. For example `4k-60fps-diagram.webp`.'
-        - label: 'Added in `static/images/product-visuals/[product-name]/features/` folder and provided as `"image_path": "/images/product-visuals/jxbrowser/features/4k-60fps-diagram.webp"`.'
+        - label: 'The image is added in `static/images/product-visuals/[product-name]/features/` folder and provided as `"image_path": "/images/product-visuals/jxbrowser/features/4k-60fps-diagram.webp"`.'
   - type: checkboxes
     id: configuration_checklist
     attributes:
@@ -52,4 +52,4 @@ body:
         - label: 'The feature teaser looks good upon window resizing.'
         - label: 'Looks good in Chrome, Safari, Firefox, iOS, Android.'
         - label: 'All links are leading where intended.'
-        - label: 'Created tasks for translations of the current teaser.'
+        - label: 'Another tasks for translations of the current teaser have been created.'
